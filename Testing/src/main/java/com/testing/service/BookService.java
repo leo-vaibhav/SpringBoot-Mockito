@@ -11,7 +11,7 @@ import com.testing.repository.BookRepository;
 @Service
 public class BookService {
 	
-	@Autowired
+	//@Autowired
 	BookRepository bookRepo;
 	
 	public List<Book> getAllBooks() {
